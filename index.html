@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Contato</title>
+</head>
+<body>
+    <h2>Formulário</h2>
+    <form action="#" method="post">
+        <label for="nome">Nome:</label><br>
+        <input type="text" id="nome" name="nome" required><br><br>
+
+        <label for="email">E-mail:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+
+        <label for="telefone">Telefone:</label><br>
+        <input type="tel" id="telefone" name="telefone" required><br><br>
+
+        <label for="cidade">Cidade:</label><br>
+        <input type="text" id="cidade" name="cidade" required><br><br>
+
+        <label for="cidade">Qual seu curso?</label><br>
+    </br>
+        <input type="radio" name="curso" value="bes">Administração<br>
+        <input type="radio" name="curso" value="bcc" checked>Ciências da Computação<br>
+        <input type="radio" name="curso" value="lc">Direito<br>
+        <input type="radio" name="curso" value="bsi">Ciências Comtabeis<br>
+        <input type="radio" name="curso" value="bes">Piscologia<br>
+        <input type="radio" name="curso" value="bes">Sistemas de Informação<br>
+
+    </br><br><br>
+
+    <label for="cidade">Escolha seu seu hobby favorito?</label><br>
+    <input type="checkbox" name="Leitura" value=1>Leitura<br>
+    <input type="checkbox" name="Futebol" value=2>Futebol<br>
+    <input type="checkbox" name="Corrida" value=3>Corrida<br>
+    <input type="checkbox" name="Dança" value=4>Dança<br>
+    <input type="checkbox" name="Viajar" value=5>Viajar<br>
+    <input type="checkbox" name="Cinema" value=6>Cinema<br>
+
+</br><br>
+
+<p>Selecione uma cor favorita:</p>
+<input name="corCeu1" id="corCeu1" type="color"><br>
+</br><br>
+
+
+Escolha o turno: <select name="turno">
+    <option value="Manhã">Manhã</option>
+    <option value="Tarde">Tarde</option>
+    <option value="Noite">Noite</option>
+    </select>
+
+
+
+</br><br>
+
+
+Selecione seu estado civil
+<input name="selecione_seu_estado_civil" type="radio" value="solteiro" checked>solteiro
+<input name="selecione_seu_estado_civil" type="radio" value="casado" checked>casado
+
+</br><br>
+
+
+        <input type="submit" value="Enviar">
+        <input type="reset" name="apagar">
+    </form>
+</body>
+</html>
